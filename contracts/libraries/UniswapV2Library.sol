@@ -28,7 +28,7 @@ library UniswapV2Library {
                         hex'ff',
                         factory,
                         keccak256(abi.encodePacked(token0, token1)),
-                        hex'00f5a7aa52ba04ca4b2f7f2ef08b82a61ac4e8fead11ebd9c4fbc48edc95b708' // init code hash (HYDRA TESTNET)
+                        hex'8bd2e44ddacff4efbf1f9ead74bd191fe945f9824cae3109bfc068d82a3cb3d1' // init code hash (V2 HYDRA MAINNET)
                     )
                 )
             )
